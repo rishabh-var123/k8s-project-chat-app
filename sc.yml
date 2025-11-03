@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: chatapp-secrets
+  namespace: chat-app
+type: Opaque
+data:
+  jwt: CmV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SlNiMnhsSWpvaVFXUnRhVzRpTENKSmMzTjFaWElpT2lKSmMzTjFaWElpTENKVmMyVnlibUZ0WlNJNklrcGhkbUZKYmxWelpTSXNJbVY0Y0NJNk1UYzJNREkzTmprd09Td2lhV0YwSWpveE56WXdNamMyT1RBNWZRLldZUHVOOXQ4TC13UkY5SlVYQXZ3NkJVTWZNQmU5TU9vZmV4RXdLakhMSFk=
